@@ -1,0 +1,24 @@
+{
+  "name": "@aleesaan/ng-siema",
+  "version": "1.0.0",
+  "description": "A lightweight Angular library to detect the active section.",
+  "author": "aleesaan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleesaan/ng-scrollspy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aleesaan/ng-scrollspy/issues"
+  },
+  "homepage": "https://github.com/aleesaan/ng-scrollspy",
+  "keywords": [
+    "angular",
+    "siema",
+    "carousel",
+    "touch"
+  ],
+  "peerDependencies": {
+    "@angular/core": "^7.2.0",
+    "siema": "^1.5.1"
+  }
+}

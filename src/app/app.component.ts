@@ -3,8 +3,15 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng-siema';
+  public carouselOpen: boolean = false;
+
+  public openCarousel(): void {
+    this.carouselOpen = true;
+  }
+
+  public closeCarousel(): void {
+    this.carouselOpen = false;
+  }
 }
