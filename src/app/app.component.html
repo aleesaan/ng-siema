@@ -1,8 +1,0 @@
-<button *ngIf="!carouselOpen" type="button" class="btn" (click)="openCarousel()">Open Carousel</button>
-<div *ngIf="carouselOpen" class="overlay"><div class="banner">Click anywhere outside the carousel to close it</div></div>
-<siema *ngIf="carouselOpen" [enableArrows]="true" [enableClickOutside]="true" [enableEscape]="true" (close)="closeCarousel()">
-  <img class="slide" src="assets/siema-pink.svg">
-  <img class="slide" src="assets/siema-yellow.svg">
-  <img class="slide" src="assets/siema-pink.svg">
-  <img class="slide" src="assets/siema-yellow.svg">
-</siema>
