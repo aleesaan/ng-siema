@@ -71,8 +71,8 @@ interface  NgSiemaOptions {
 The slides will be placed inside the following html structure, which you can use to style the carousel as you wish.
 ```html
 <siema>
-	<div class="carousel-container" #carousel>
-		<div class="carousel">
+	<div class="siema-container">
+		<div class="siema">
 			<img src="assets/siema-pink.svg">
 			<img src="assets/siema-yellow.svg">
 			...
