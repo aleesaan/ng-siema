@@ -5,12 +5,12 @@
   "author": "aleesaan",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aleesaan/ng-scrollspy.git"
+    "url": "https://github.com/aleesaan/ng-siema.git"
   },
   "bugs": {
-    "url": "https://github.com/aleesaan/ng-scrollspy/issues"
+    "url": "https://github.com/aleesaan/ng-siema/issues"
   },
-  "homepage": "https://github.com/aleesaan/ng-scrollspy",
+  "homepage": "https://github.com/aleesaan/ng-siema",
   "keywords": [
     "angular",
     "siema",
