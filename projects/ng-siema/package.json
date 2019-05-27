@@ -1,6 +1,6 @@
 {
   "name": "@aleesaan/ng-siema",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight Angular library to detect the active section.",
   "author": "aleesaan",
   "repository": {
@@ -18,7 +18,7 @@
     "touch"
   ],
   "peerDependencies": {
-    "@angular/core": "^7.2.0",
-    "siema": "^1.5.1"
+    "@angular/core": "7.2.15",
+    "siema": "1.5.1"
   }
 }

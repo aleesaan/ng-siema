@@ -14,11 +14,11 @@ Then import the **NgSiemaModule** in your module.
 import { NgSiemaModule } from  'ng-siema';
 
 @NgModule({
-	...
-	imports: [
-		NgSiemaModule,
-	],
-	...
+  ...
+  imports: [
+    NgSiemaModule,
+  ],
+  ...
 })
 export class AppModule {}
 ```  
@@ -28,9 +28,9 @@ export class AppModule {}
 The **NgSiemaModule** comes just with a `siema` component. Inside, put the images you want as slides.
 ```html
 <siema>
-	<img  src="assets/siema-pink.svg">
-	<img  src="assets/siema-yellow.svg">
-	...
+  <img  src="assets/siema-pink.svg">
+  <img  src="assets/siema-yellow.svg">
+  ...
 </siema>
 ```
 
@@ -42,12 +42,12 @@ The **NgSiemaModule** comes just with a `siema` component. Inside, put the image
 - `enableEscape` (default `false`): if `true`, the component will emit a `close()` event when pressing escape.
 ```html
 <siema
-	[enableArrows]="true"
-	[enableEscape]="true"
-	(close)="closeCarousel()">
-	<img  src="assets/siema-pink.svg">
-	<img  src="assets/siema-yellow.svg">
-	...
+  [enableArrows]="true"
+  [enableEscape]="true"
+  (close)="closeCarousel()">
+  <img  src="assets/siema-pink.svg">
+  <img  src="assets/siema-yellow.svg">
+  ...
 </siema>
 ```
 
@@ -55,14 +55,14 @@ The **NgSiemaModule** comes just with a `siema` component. Inside, put the image
 
 ```ts
 interface  NgSiemaOptions {
-	duration: number;
-	easing: string;
-	perPage: number;
-	startIndex: number;
-	draggable: boolean;
-	multipleDrag: boolean;
-	threshold: number;
-	loop: boolean;
+  duration: number;
+  easing: string;
+  perPage: number;
+  startIndex: number;
+  draggable: boolean;
+  multipleDrag: boolean;
+  threshold: number;
+  loop: boolean;
 }
 ```
 
@@ -71,12 +71,12 @@ interface  NgSiemaOptions {
 The slides will be placed inside the following html structure, which you can use to style the carousel as you wish.
 ```html
 <siema>
-	<div class="siema-container">
-		<div class="siema">
-			<img src="assets/siema-pink.svg">
-			<img src="assets/siema-yellow.svg">
-			...
-		</div>
-	</div>
+  <div class="siema-container">
+    <div class="siema">
+      <img src="assets/siema-pink.svg">
+      <img src="assets/siema-yellow.svg">
+      ...
+    </div>
+  </div>
 </siema>
 ```
